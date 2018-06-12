@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark">
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="right"
+                android:text="A"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/mondayAs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/tuesdayAs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/wednesdayAs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/thursdayAs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/fridayAs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="right"
+                android:text="B"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/mondayBs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/tuesdayBs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/wednesdayBs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/thursdayBs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/fridayBs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="right"
+                android:text="C"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/mondayCs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/tuesdayCs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/wednesdayCs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/thursdayCs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/fridayCs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="right"
+                android:text="D"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/mondayDs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/tuesdayDs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/wednesdayDs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/thursdayDs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/fridayDs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="right"
+                android:text="E"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/mondayEs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/tuesdayEs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/wednesdayEs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/thursdayEs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/fridayEs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="right"
+                android:text="F"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/mondayFs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/tuesdayFs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/wednesdayFs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/thursdayFs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/fridayFs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark">
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="right"
+                android:text="G"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/mondayGs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="월"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/tuesdayGs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="화"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/wednesdayGs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="수"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/thursdayGs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="목"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <com.example.georg.sangfinalproj.AutoResizeTextView
+                android:id="@+id/fridayGs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"
+                android:text="금"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+    </TableLayout>
+
+</FrameLayout>

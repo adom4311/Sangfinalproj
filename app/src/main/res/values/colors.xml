@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7777ff</color>
+    <color name="colornotice">#0000ff</color>
+    <color name="colorPrimaryDark">#000077</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorlightwhite">#fffff1</color>
+    <color name="friendlist">#ffbe5c</color>
+    <color name="friendlistdark">#ffbeac</color>
+    <color name="white">#ffffff</color>
+</resources>

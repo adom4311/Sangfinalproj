@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:id="@+id/friendRadio"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="#ffffff"/>
+
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:text="친구1"
+        android:id="@+id/friendtext"
+        android:drawableStart="@drawable/friendship"
+        android:drawableLeft="@drawable/friendship"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:background="#ffffff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/friendschedulebtn"
+        android:text="시간표"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
